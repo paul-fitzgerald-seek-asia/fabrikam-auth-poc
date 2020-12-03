@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  webapp:
+    build: ./webapp
+    image: fabrikam-webapp:latest
+    ports:
+      - "3000:3000"
+  api:
+    build: ./screening-api
+    image: fabrikam-screening:latest
+    ports:
+      - "8080:8080"

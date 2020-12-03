@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  height:60px;
+}
+
+footer {
+  height:40px;
+}
+
+button {
+  padding-left:1.5em;
+  padding-right:1.5em;
+  font-weight: bold;
+  height:2em;
+}
+
+h1 {
+  font-size: 50pt;
+  text-align: left;
+}
+
+h2 {
+  color: #d8d8d8;
+  position: relative;
+  bottom: 6em;
+}
+
+div.logo {
+  padding-left: 2em;
+  width: 160px;
+  font-size: 24pt;
+}
+
+.logotype {
+  text-align: left;
+  color: white;
+  position: relative;
+  bottom: 1.75em;
+  left: 2.5em;
+  font-family: 'Fjalla One', 'Open Sans', Robto, sans-serif;
+}
+h1.logotype {
+  text-align: center;
+  left: 12pt;
+}
+
+.disclaimer {
+  position: relative;
+  left: 40%;
+  bottom:2em;
+  width: 50%;
+  font-size: 0.8em;
+}
+
+.copyright {
+  width: 30%;
+  position: relative;
+  left:8em;
+  bottom:0.5em;
+}
+
+.shadow-30 {
+  background-color: rgba(0,0,0,0.3);
+  padding-top: 6em;
+  padding-right: 1em;
+  padding-left: 0.5em;
+  height:5em;
+  margin-bottom: 9em;
+}
+
+.bg-contrast {
+  background-color: black;
+}
+
+.fg-contrast {
+  color: white;
+}
+
+.fg-detail {
+  color: black;
+}
+
+.bg-detail {
+  background-color: #d8d8d8;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.vert-bump {
+  position: relative;
+  bottom: 5.5em;
+  right: 1em;
+}
+
+.navButton {
+  animation: fadeIn ease 24s;
+  padding:1em;
+  padding-bottom: 2.2em;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border:1px solid rgba(255,255,255,0.8);
+  color: white;
+  border-radius: 10px;
+  background-color: rgba(36,124,235,0.8);
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;visibility: hidden;}
+  37.5% {{opacity:0;visibility: show;}}
+  50% {opacity:1;}
+  100% {background-color: rgba(36,124,235,0.75);}
+}
+
+.screening-form {
+  padding:3em;
+  text-align: center;
+}

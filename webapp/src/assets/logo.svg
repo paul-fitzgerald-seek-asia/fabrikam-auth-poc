@@ -1,0 +1,65 @@
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="64" height="64">
+    <defs>
+        <linearGradient id="just_blue" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="30%" style="stop-color:rgb(36,124,235);stop-opacity:1" />
+            <stop offset="50%" style="stop-color:rgb(40,137,255);stop-opacity:1" />
+            <stop offset="70%" style="stop-color:rgb(36,124,235);stop-opacity:1" />
+        </linearGradient>
+        
+        <radialGradient id="blue_dot" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="30%" style="stop-color:rgb(36,124,235);stop-opacity:1" />
+            <stop offset="50%" style="stop-color:rgb(40,137,255);stop-opacity:1" />
+            <stop offset="70%" style="stop-color:rgb(36,124,235);stop-opacity:1" />
+        </radialGradient>
+
+        <linearGradient id="pink_up" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(36,124,235);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(124,108,240);stop-opacity:1" />
+        </linearGradient>
+
+        <linearGradient id="pink_down" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(124,108,240);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(36,124,235);stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <polyline style="stroke:#247CEA;stroke-width:1px;" fill="url(#just_blue)" points="0,20, 30,20, 30,10, 60,30, 30,50, 30,40, 0,40, 0,20"/>
+
+    <g fill="url(#blue_dot)">
+        <circle cx="2" cy="20" r="1"/>
+        <circle cx="28" cy="20" r="1"/>
+        <circle cx="30" cy="10" r="1"/>
+        <circle cx="30" cy="50" r="1"/>
+        <circle cx="28" cy="40" r="1"/>
+        <circle cx="2" cy="40" r="1"/>
+        <circle cx="59" cy="30" r="1"/>
+    </g>
+
+    <g fill="url(#pink_up)">
+        <polyline points="15,20,  5,30,  5,20, 15,20"/>
+        <polyline points="25,20, 15,30, 15,20, 25,20"/>
+        <polyline points="15,30, 25,40, 25,30, 15,30"/>
+        <polyline points=" 5,30, 15,40, 15,30,  5,30"/>
+    </g>
+    <g fill="url(#pink_down)">
+        <polyline points=" 5,30, 15,30, 15,20,  5,30"/>
+        <polyline points="15,30, 25,30, 25,20, 15,30"/>
+        <polyline points="25,40, 15,40, 15,30, 25,40"/>
+        <polyline points=" 5,40, 15,40,  5,30,  5,40"/>
+    </g>
+
+    <g fill="url(#pink_up)">
+        <polyline points="30,20, 45,20, 30,10, 30,20"/>
+        <polyline points="30,20, 45,20, 30,30, 30,20"/>
+        <polyline points="30,30, 45,30, 45,20, 30,30"/>
+        <polyline points="30,30, 45,30, 30,40, 30,30"/>
+        <polyline points="30,40, 45,40, 45,30, 30,40"/>
+        <polyline points="30,40, 30,50, 45,40, 30,40"/>
+    </g>
+    <g fill="url(#pink_down)">
+        <polyline points="45,30, 60,30, 45,20, 45,30"/>
+        <polyline points="45,30, 60,30, 45,40, 45,30"/>
+    </g>
+</svg>

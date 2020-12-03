@@ -1,0 +1,5 @@
+{
+    "domain": "lawrence-seek-idp-dev.au.auth0.com",
+    "clientId": "LOGBNOZEQXiTETWhoQjNO8hUMBVDFGf9",
+    "apiAudience": "http://localhost:8080/v1/screening/"
+}
